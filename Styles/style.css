@@ -27,10 +27,13 @@ body{
     font-size: 3rem; 
 }
 
+
 #image {
-    width: 35%; 
+    max-width: 35%; 
     border: 2px solid black; 
     border-radius: 25%; 
+    display: block; 
+    margin: auto; 
 }
 
 #img-div p {
@@ -67,4 +70,19 @@ body{
 
 #tribute-info hr {
     width: 50%; 
+}
+
+#more-info {
+    background-color: #D8D0C1; 
+    width: 50%; 
+    margin: auto; 
+    margin-top: 2%; 
+    margin-bottom: 2%; 
+    border: 2px solid black; 
+    border-radius: 10px;
+    padding: 5px; 
+}
+
+#more-info p {
+    font-size: 2rem; 
 }
