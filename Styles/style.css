@@ -1,0 +1,70 @@
+html{
+    /*Setting the font size to 10px here makes using rem easier as for example 1rem = 10px, 2rem = 20px ect.*/ 
+    font-size: 10px; 
+}
+
+body{
+    background-color: #E0D3DE; 
+    text-align: center; 
+    margin: 0; 
+}
+
+#title-div{
+    background-color: #D8D0C1; 
+    width: 50%; 
+    margin: auto; 
+    margin-top: 2%; 
+    margin-bottom: 2%; 
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+#title-div h1{
+    font-size: 5rem; 
+}
+
+#title-div p {
+    font-size: 3rem; 
+}
+
+#image {
+    width: 35%; 
+    border: 2px solid black; 
+    border-radius: 25%; 
+}
+
+#img-div p {
+    font-size: 2rem; 
+    background-color: #D8D0C1; 
+    border: 2px solid black; 
+    border-radius: 10px;
+    width: 15%; 
+    margin: auto; 
+}
+
+#tribute-info {
+    background-color: #D8D0C1; 
+    width: 50%; 
+    margin: auto; 
+    margin-top: 2%; 
+    margin-bottom: 2%; 
+    border: 2px solid black; 
+    border-radius: 10px;
+    padding: 5px; 
+}
+
+#tribute-info h2 {
+    font-size: 4rem; 
+}
+
+#tribute-info h3 {
+    font-size: 3rem; 
+}
+
+#tribute-info p {
+    font-size: 2rem; 
+}
+
+#tribute-info hr {
+    width: 50%; 
+}
